@@ -1,0 +1,124 @@
+body {
+    /* font-family: "Lato","proxima-nova","Helvetica Neue",Arial,sans-serif; */
+    font-family: "";
+    font-weight: normal;
+}
+
+
+h1, h2, h3, h4, h5, h6, legend {
+    /* font-family: "Roboto Slab","ff-tisa-web-pro","Georgia",Arial,sans-serif; */
+    font-family: "";
+}
+
+.btn {
+    font-family: "";
+}
+
+.icon-home:before {
+    content: "";
+}
+
+.section li {
+    margin: 0.5em 0;
+}
+
+.section ol li,
+.section ul li,
+p {
+    line-height: 1.6em;
+}
+
+.wy-side-nav-search > a, .wy-side-nav-search .wy-dropdown > a {
+    font-size: 150%;
+    font-weight: bolder;
+}
+
+.wy-nav-side {
+    background: #007f7f;
+    width: 300px;
+}
+
+
+.wy-menu-vertical {
+    border-top: solid 1px #fcfcfc;
+    color: #fcfcfc;
+}
+.wy-menu-vertical a {
+    color: #fcfcfc;
+}
+
+.wy-menu-vertical li.current {
+    background: #1abc9c;
+}
+
+.wy-menu-vertical li.current a {
+    color: #f4f4f4;
+}
+
+.wy-menu-vertical a:hover {
+    background: #1abc9c;
+}
+
+.wy-menu-vertical li.current a:hover {
+    color: #fcfcfc;
+    background: #007f7f;
+    /* border-top: solid 1px #f4f4f4; */
+    /* border-bottom: solid 1px #f4f4f4; */
+}
+
+.wy-menu-vertical li.on a,
+.wy-menu-vertical li.current > a {
+    color: #404040;
+    border: none;
+}
+
+.wy-menu-vertical li ul li a {
+    /* color: #b3b3b3; */
+    color: #fcfcfc;
+}
+
+.wy-menu-vertical span {
+    /* color: #838383; */
+    color: #fcfcfc;
+}
+
+.wy-side-nav-search {
+    background-color: #007f7f;
+}
+
+.subaru-logo {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 0;
+}
+
+.subaru-logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.wy-nav-content-wrap {
+    /* background: rgba(0,0,0,0.05); */
+    background: #fcfcfc;
+}
+
+.wy-nav-content {
+    /* max-width: 800px; */
+    max-width: 1000px;
+}
+
+.rst-versions {
+    border-top: solid 1px #fcfcfc;
+    font-family: "";
+}
+
+.rst-versions .rst-current-version {
+    /* background-color: #272525; */
+    background-color: #007f7f;
+}
+
+
+
+
+
+

@@ -1,0 +1,31 @@
+site_name: Science
+site_url: http://www.naoj.org/
+site_description: Science Information
+site_author: Masato Onodera
+copyright: "&copy; 2015-2023 Subaru Telescope, NAOJ. All rights reserved."
+# site_logo: "img/logo.gif"
+
+nav:
+- 'Top': 'index.md'
+- 'Observing':
+    - 'Top': 'observing.md'
+- 'Science':
+    - 'Top': 'science.md'
+    - 'Publications': 'science/publications.md'
+    - 'Subaru Seminar': science/seminar.md
+
+theme:
+    name: readthedocs
+    custom_dir: custom_theme
+    logo: img/logo.gif
+
+extra_css: ['css/hsc_queue.css']
+
+markdown_extensions:
+    - toc:
+        permalink: True
+    - admonition:
+
+
+extra:
+    last_update: February 24, 2023

@@ -1,0 +1,19 @@
+[tool.pdm]
+
+[project]
+name = "mkdocs_subaru_example"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Masato Onodera", email = "monodera@naoj.org"},
+]
+dependencies = [
+    "mkdocs>=1.4.2",
+]
+requires-python = ">=3.8"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-pep517>=1.0"]
+build-backend = "pdm.pep517.api"
