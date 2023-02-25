@@ -64,7 +64,7 @@ mkdocs build
 
 これでエラーが出なければ、ビルドされたファイルが `site/` 以下にできていると思います。これを任意の場所に置くことでウェブサイトの更新ができます。
 
-例を以下のサイトに示しました: http://www1.subaru.nao.ac.jp/~monodera/public/test_subaru_website/
+例を以下のサイトに示しました: https://www.naoj.org/staff/monodera/test_subaru_website/
 
 
 
