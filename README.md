@@ -41,6 +41,8 @@ mkdocs serve
 
 このモード (`serve`) では、`docs` 以下のファイルや、設定ファイルである `mkdocs.yml` を変更すると自動でリロードされます。開発時はこれをつかうとよいでしょう。
 
+終了するには `Ctrl-C` を押します（2回押す必要があるかもしれません）。
+
 
 ## ウェブサイトのビルド
 
@@ -52,4 +54,4 @@ mkdocs build
 
 これでエラーが出なければ、ビルドされたファイルが `site/` 以下にできていると思います。これを任意の場所に置くことでウェブサイトの更新ができます。
 
-例を以下のサイトに示しました: http://www1.subaru.nao.ac.jp/~monodera/public/test_subaru_website/
+例を以下のサイトに示しました: https://www.naoj.org/staff/monodera/test_subaru_website/
